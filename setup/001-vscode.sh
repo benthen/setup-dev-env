@@ -12,7 +12,7 @@ ssh-keygen
 cat .\.ssh\id_rsa.pub
 
 ###############################################################################
-### Step 3 register key in linux machine
+### Step 3 Register key in linux machine
 ###############################################################################
 ssh-keygen
 nano ./.ssh/authorized_keys
