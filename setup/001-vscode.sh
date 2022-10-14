@@ -15,5 +15,5 @@ cat .\.ssh\id_rsa.pub
 ### Step 3 Register key in linux machine
 ###############################################################################
 ssh-keygen
-nano ./.ssh/authorized_keys
-chmod 600 ./.ssh/authorized_keys
+nano ./.ssh/authorized_keys #copy pc ssh key into nano
+chmod 600 ./.ssh/authorized_keys #modify permission
